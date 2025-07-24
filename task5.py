@@ -25,7 +25,7 @@ print(friends)
 
 print("")
 
-print("UPDAYED AISHA\'S NAME")
+print("UPDATED AISHA\'S NAME")
 friends[0] = "Aisha_M"
 print(friends)
 
@@ -51,5 +51,4 @@ print("")
 
 print("ARRANGING CONTACTS IN DESCENDING ALPHABETICAL ORDER")
 sorted(friends)
-print(friends)
 print(friends[::-1])

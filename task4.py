@@ -16,6 +16,8 @@ courses = ["MTH 101", "PHY 101", "CHM 101", "CSC 101", "GST 101"]
 print("ADDED ENG 101 TO THE BEGINNING")
 courses.insert(0, "ENG 101")
 print(courses)
+'''courses = ['ENG 101'] + courses
+print(courses) '''
 
 print("")
 

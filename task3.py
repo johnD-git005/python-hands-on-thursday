@@ -10,3 +10,20 @@ money = [1000, 1200, 800, 1500, 1100]
 
 → Perform the corrections and computations, and print all results.
 """
+
+money = [1000, 1200, 800, 1500, 1100]
+
+print("TOTAL AMOUNT RECIEVED")
+total_amount_recieved = money[0] + money[1] + money[2] + money[3] + money[4]
+print(total_amount_recieved)
+
+print("")
+
+print("CORRECTED 800 TO 1000")
+money[2] = 1000
+print(money)
+
+print("")
+
+print("DISPLAYING THE LIST IN REVERSE ORDER")
+print(money[::-1])

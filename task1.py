@@ -18,18 +18,26 @@ print("ADDED MIYAN TAUSHE")
 meals.insert(4, "Miyan Taushe")
 print(meals)
 
+print("")
+
 print("REMOVED MASA")
 meals.remove(meals[1])
 print(meals)
 
+print("")
 
 print("ADDED FURA DA NONO TO THE END")
-meals.append(meals[2])
+meals[2], meals[5] = meals[5], meals[2]
 print(meals)
 
+print("")
 
 print("MEAL AT THE CENTER")
-print(meals[3])
+length = len(meals) // 2
+print(meals[length])
+
+print("")
 
 print("SORT")
-print(meals.sort())
+print(sorted(meals))
+
